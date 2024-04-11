@@ -1,0 +1,21 @@
+<mat-toolbar>
+    <mat-toolbar-row>
+        <div class="logo">
+            <img src="../../../assets/images/svg/logo.svg" width="" height="" alt="">
+        <span class="toolbar-title">gen ai.</span>
+        </div>
+        <button mat-icon-button [matMenuTriggerFor]="menu">
+            <mat-icon class="vert">more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+                <mat-icon>dialpad</mat-icon>
+                <span>Contact Us</span>
+            </button>
+            <button mat-menu-item>
+                <mat-icon>voicemail</mat-icon>
+                <span>Get Help</span>
+            </button>
+        </mat-menu>
+    </mat-toolbar-row>
+</mat-toolbar>
