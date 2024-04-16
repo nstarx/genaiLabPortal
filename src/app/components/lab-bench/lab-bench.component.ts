@@ -16,6 +16,7 @@ export class LabBenchComponent {
 
 
   buildUseCase(){
-    this.router.navigate(['/lab-bench/usecasebuild'])
+    // this.router.navigate(['/lab-bench/usecasebuild'])
+    window.open('/usecasebuild','_blank');
   }
 }
