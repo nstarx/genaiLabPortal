@@ -12,12 +12,10 @@ export const routes: Routes = [
     {
         path: "lab-bench",
         component: LabBenchComponent,
-        children: [
-            {
-                path: "usecasebuild",
-                component: UsecasebuildComponent
-            },
-        ]
+    },
+    {
+        path: "usecasebuild",
+        component: UsecasebuildComponent
     }
 ];
 
